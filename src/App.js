@@ -1,25 +1,61 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+function Home() {
+  return <p className="header-home-button">Home</p>;
+}
+
+function CreateYourWebsite() {
+  return <p className="create-button">Create Your Own</p>;
+}
+function Jumbotron() {
+  return (
+    <div className="jumbotron">
+      <CreateYourWebsite />
+    </div>
+  );
+}
+function AfterJumbotron(superProps) {
+  function LeftSide(props) {
+    return <img src={props.source} alt="icon" />;
+  }
+  function RightSide() {
+    return <div />;
+  }
+  return (
+    <div className="after-jumbotron">
+      <LeftSide source={superProps.source} />
+      <RightSide />
+    </div>
+  );
+}
+
+function Header() {
+  return (
+    <header>
+      <Home />
+      <CreateYourWebsite />
+    </header>
+  );
+}
+function Body() {
+  return (
+    <main>
+      <Jumbotron />
+      <AfterJumbotron source="2.jpg" />
+    </main>
+  );
+}
+function Footer() {
+  return <footer />;
+}
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Body />
+      <Footer />
+    </>
   );
 }
 
