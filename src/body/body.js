@@ -1,5 +1,5 @@
 import React from 'react';
-import image from './2.jpg';
+import image from '../images/2.jpg';
 import Jumbotron from './jumbotron';
 import AfterJumbotron from './afterJumbotron';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import CreateYourWebsite from './createyourwebsite';
+import CreateYourWebsite from '../header/createyourwebsite';
 import './jumbotron.css';
 
 function Jumbotron() {

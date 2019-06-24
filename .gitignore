@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+#Workspace Settings
+.code-workspace
+
+
 # testing
 /coverage
 

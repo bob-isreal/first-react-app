@@ -19,13 +19,17 @@ function AfterJumbotron(superProps) {
       </>
     );
   }
-  function RightSide() {
-    return <div className="right-flex-after-jumbotron" />;
+  function RightSide({ source }) {
+    return (
+      <div className="right-flex-after-jumbotron">
+        <img className="right-image" src={source} alt="sample" />
+      </div>
+    );
   }
   return (
     <div className="after-jumbotron flex">
       <LeftSide source={superProps.source} />
-      <RightSide />
+      <RightSide source={superProps.source} />
     </div>
   );
 }
