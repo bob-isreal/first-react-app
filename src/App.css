@@ -3,6 +3,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+body {
+  background: rgba(236, 231, 225);
+}
 
 main {
   margin-top: -1em;
@@ -19,53 +22,25 @@ header {
   top: 0em;
   bottom: 0em;
   width: 100%;
+  border-bottom: 1px solid rgba(235, 227, 227, 0.2);
 }
 .header-home-button {
   padding: 0.5em;
-  border-right: 3px #ffffff solid;
+  border-right: 1px #ffffff solid;
   font-size: 1em;
+  align-self: center;
 }
-.create-button {
-  border: rgb(92, 92, 196) solid 3px;
-  padding: 0.5em;
-  border-radius: 2em;
-  margin-left: 1em;
-  margin-right: 1em;
-  font-weight: 900;
-  max-width: 20%;
-  color: white;
-  justify-items: center;
-}
-.create-button:hover {
-  color: black;
-  background-color: white;
-  border: #c5c5c1 solid 3px;
-  animation-name: change;
-  animation-duration: 2s;
-  animation-timing-function: ease;
-}
-.jumbotron {
-  width: 100%;
-  height: 25em;
-  background: black;
+.flex {
   display: flex;
-  align-items: center;
+}
+.column {
+  flex-direction: column;
+}
+.flex-center-main {
   justify-content: center;
 }
-.jumbotron .create-button {
-  border: #c5c5c1 solid 3px;
-}
-@keyframes change {
-  from {
-    border: rgb(92, 92, 196) solid 3px;
-    color: white;
-    background-color: black;
-  }
-  to {
-    color: black;
-    background-color: white;
-    border: #c5c5c1 solid 3px;
-  }
+.flex-center-cross {
+  align-items: center;
 }
 @keyframes App-logo-spin {
   from {

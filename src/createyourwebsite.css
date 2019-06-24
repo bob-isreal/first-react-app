@@ -1,0 +1,30 @@
+.create-button {
+  border: rgb(92, 92, 196) solid 3px;
+  padding: 0.5em;
+  border-radius: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  font-weight: 900;
+  max-width: 20%;
+  color: white;
+  justify-items: center;
+}
+.create-button:hover {
+  color: black;
+  background-color: white;
+  border: #c5c5c1 solid 3px;
+  transition: ease 1s;
+}
+
+@keyframes change {
+  from {
+    border: rgb(92, 92, 196) solid 3px;
+    color: white;
+    background-color: black;
+  }
+  to {
+    color: black;
+    background-color: white;
+    border: #c5c5c1 solid 3px;
+  }
+}
