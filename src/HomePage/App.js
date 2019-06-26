@@ -4,7 +4,7 @@ import Body from '../body/body';
 import Footer from '../footer/footer';
 import './App.css';
 
-function App() {
+function Home() {
   return (
     <>
       <Header />
@@ -14,4 +14,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

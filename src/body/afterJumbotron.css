@@ -44,15 +44,21 @@
 
 .right-flex-after-jumbotron {
   height: -webkit-fill-available;
-  background: rgb(203, 211, 212);
+  background: rgba(203, 211, 212, 0.5);
   margin-left: 1em;
   box-shadow: -2px -0px 5px rgb(148, 125, 125);
   flex: 0 0 69%;
+  display: flex;
+  justify-content: center
 }
 .right-image {
   border-radius: 5%;
-  margin: auto;
-  border: 4px white groove;
+  width: 90%;
+  height: 50%;
+  margin-top: 2em;
+justify-self: center;
+  border: 6px white double;
   cursor: pointer;
   max-width: 99%;
+  
 }
