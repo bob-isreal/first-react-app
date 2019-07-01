@@ -4,14 +4,17 @@ import Body from '../body/body';
 import Footer from '../footer/footer';
 import './App.css';
 
-function Home() {
+
+function App() {
   return (
     <>
-      <Header />
-      <Body />
-      <Footer />
+
+        <Header />
+        <Body />
+        <Footer />
+
     </>
   );
 }
 
-export default Home;
+export default App;

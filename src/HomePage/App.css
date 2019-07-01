@@ -3,6 +3,25 @@
   height: 40vmin;
   pointer-events: none;
 }
+/******************************
+******************************
+    SandBox Css
+******************************
+******************************/
+#sand {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: flex
+}
+#sandbox{
+  margin: auto
+}
+
+/******************************
+******************************
+    Main App Css
+******************************
+******************************/
 body {
   background: rgba(236, 231, 225);
 }
@@ -13,6 +32,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+a{
+  text-decoration-line: none
 }
 
 code {

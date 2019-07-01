@@ -1,0 +1,16 @@
+.icon {
+  color: #4ea2e3;
+  margin: 1em;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #4ea2e3;
+  color: #fff;
+  width: 18%;
+  margin: auto;
+  border-radius: 3px
+}
+.contact-single-info {
+  margin: 2em;
+}

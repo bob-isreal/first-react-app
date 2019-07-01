@@ -1,0 +1,22 @@
+.form-input {
+  margin: 0.1em 1em;
+}
+input {
+  line-height: 2.5em;
+  border: solid 1px #4ea2e3;
+  border-radius: 0.2em;
+}
+.input-field {
+  width: 20em;
+}
+.flex-spaceout-main {
+  justify-content: space-between;
+  padding: 1.6em;
+}
+.textarea-div {
+  flex-basis: 90%;
+}
+.textarea {
+  width: 100%;
+  line-height: 20em;
+}

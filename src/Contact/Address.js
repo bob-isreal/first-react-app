@@ -1,13 +1,14 @@
 import React from 'react'
-import {FaPhone} from 'react-icons/fa'
+import {MdLocationOn} from 'react-icons/md'
+import './Address.css'
 
-function Address(){
+function Address(props){
     return (
         <div className="contact-single-info">
           <span className="icon">
-            <FaPhone />
+            <MdLocationOn />
           </span>
-          <span className="icon-info">+234 906 760 6623</span>
+          <span className="icon-info">{props.address}</span>
         </div>
       );
 }
